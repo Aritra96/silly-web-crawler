@@ -10,25 +10,34 @@ If you begin browsing any random Wikipedia page and click the first link on each
 
 Don't believe me yet? Check [this](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy) out.
 
-This is a simple project which crawls any page you may wanna use and collects information from the pages crawled, hence, web crawler.
+This is a simple project which goes through a number of pages from the first page till the last page (as specified by the user) and counts how many pages were crawled to get to the last page.
 
 ### Running the program
 
+You can run this program by using the command python udacitycrawler.py. 
 
-### Program Details
+By default it'll take you from a random wikipedia page to the Philosophy page. 
 
+You can change this simply by changing the pages in the .py file. The two variables you may want to change are start_url and target_url.
 
 # Requirements
 
+* Language: Python 3.5 or above
+* Libraries: beautifulsoup, requests, time, urllib
 
 # Built with
 
-
+* [Python 3.6.6](https://www.python.org/) - The language used to develop this.
+* [time](https://docs.python.org/2/library/time.html) - One of the libraries used for this.
+* [beautifulsoup](https://beautiful-soup-4.readthedocs.io/en/latest/) - One of the libraries used for this.
+* [requests](https://pypi.org/project/requests/) - One of the libraries used for this.
+* [urllib](https://docs.python.org/3/library/urllib.html) - One of the libraries used for this.
+* 
 # Author
 
  * [Aritra Chattaraj](https://github.com/aritra96) - Sole author for this program. Mentioned all the help received in 'Acknowledgements' section.
  
 # Acknowledgments
 
-* [Udacity]
-* [Wikipedia]
+* [Udacity](https://www.udacity.com/)
+* [Wikipedia](https://www.wikipedia.org/)
