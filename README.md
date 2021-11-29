@@ -32,7 +32,7 @@ You can change this simply by changing the pages in the .py file. The two variab
 * [beautifulsoup](https://beautiful-soup-4.readthedocs.io/en/latest/) - One of the libraries used for this.
 * [requests](https://pypi.org/project/requests/) - One of the libraries used for this.
 * [urllib](https://docs.python.org/3/library/urllib.html) - One of the libraries used for this.
-* 
+
 # Author
 
  * [Aritra Chattaraj](https://github.com/aritra96) - Sole author for this program. Mentioned all the help received in 'Acknowledgements' section.
